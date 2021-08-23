@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -21,6 +21,9 @@ namespace CICDDemoAPI.Controllers
 		public WeatherForecastController(ILogger<WeatherForecastController> logger)
 		{
 			_logger = logger;
+
+
+
 		}
 
 		[HttpGet]
